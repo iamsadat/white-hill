@@ -9,25 +9,15 @@ import "../styles/PropertySlider.css";
 import "../styles/Gallery.css";
 
 const Gallery = () => {
-  const interiorImages = [
-    
-  ];
+  const interiorImages = [];
 
-  const kitchenImages = [
-    
-  ];
+  const kitchenImages = [];
 
-  const barCounterImages = [
-    
-  ];
+  const barCounterImages = [];
 
-  const lawnImages = [
-    
-  ];
+  const lawnImages = [];
 
-  const poolImages = [
-    
-  ];
+  const poolImages = [];
 
   return (
     <>

@@ -1,5 +1,25 @@
 import React from "react";
 
+const styles = {
+  whatsappIcon: {
+    position: "fixed",
+    bottom: "20px",
+    right: "20px",
+    zIndex: "9999",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "50px",
+    height: "50px",
+    borderRadius: "50%",
+  },
+  iconImage: {
+    width: "35px",
+    height: "35px",
+    padding: "2px",
+  },
+};
+
 const Whatsapp = () => {
   return (
     <a
@@ -47,26 +67,6 @@ const Whatsapp = () => {
       </svg>
     </a>
   );
-};
-
-const styles = {
-  whatsappIcon: {
-    position: "fixed",
-    bottom: "20px",
-    right: "20px",
-    zIndex: "9999",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    width: "50px",
-    height: "50px",
-    borderRadius: "50%",
-  },
-  iconImage: {
-    width: "35px",
-    height: "35px",
-    padding: "2px",
-  },
 };
 
 export default Whatsapp;
