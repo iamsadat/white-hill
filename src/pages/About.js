@@ -6,14 +6,14 @@ import Whatsapp from "../components/Whatsapp";
 import ScrollAnimation from "../components/ScrollAnimation";
 import ReactPlayer from "react-player";
 import VideoSlider from "../components/VideoSlider";
-import video1 from "../assests/video1.mp4";
-import video2 from "../assests/video2.mp4";
-import video3 from "../assests/video3.mp4";
-import video4 from "../assests/video4.mp4";
-import video5 from "../assests/video5.mp4";
+import video1 from "../assests/videos/Ins2964933549_8ac9345211084aa69ec0a5ac1424e461_10000000_637026391626915_3112049697901496781_n.mp4";
+import video2 from "../assests/videos/Ins2964933549_910a09cad5fb437198766ebfefbe54ef_3B492113F8096A84F4BE321B2220E59F_video_dashinit.mp4";
+import video3 from "../assests/videos/Ins2964933549_781bbf1d229a4fedbac0a61caecc28aa_10000000_620057553086725_8958707978654741373_n.mp4";
+import video4 from "../assests/videos/Ins2964933549_83f3b4c895804f5eba6bfb8518305c07_FF4E8782E606B6CDEB5B1556115A3BA4_video_dashinit.mp4";
+import video5 from "../assests/videos/Ins2964933549_109ffbafe6bb437f8a1945d449c00390_01458B43042468202B895FAE532F68A7_video_dashinit.mp4";
 
 const About = () => {
-  const videos = [video1, video2, video3, video4, video5];
+  const videos = [video1, video2, video3, video4, video5,];
   return (
     <>
       <Navbar />
@@ -21,11 +21,11 @@ const About = () => {
       <ScrollAnimation>
         <ScrollAnimation>
           <div class="container---">
-            <div className="player-wrapper">
+            <div className="player-wrapper">s
               <VideoSlider videos={videos} />
             </div>
             <ScrollAnimation>
-              <h1 className="underlined-heading">A Creations Farm Stay</h1>
+              <h1 className="underlined-heading">White Hill</h1>
             </ScrollAnimation>
             <ScrollAnimation>
               <p>

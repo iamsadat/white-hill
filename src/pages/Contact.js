@@ -52,18 +52,17 @@ const Contact = () => {
             <div className="wrapper animated bounceInLeft">
               <div className="company-info">
                 <h3 className="company-info-title underlined-heading">
-                  A Creations Farm Stay
+                  White Hill Hyd
                 </h3>
                 <ul>
                   <li>
-                    <FaRoad /> : 6-29/121/P, Narkhuda, Shamsabad, Hyderabad,
-                    Telangana 501218
+                    <FaRoad /> : 96HH+7PM, Chinna Mangalaram, Telangana 501504.
                   </li>
                   <li>
-                    <FaPhone /> : 9393031001 / 9390058561
+                    <FaPhone /> :  +91 9121699121
                   </li>
                   <li>
-                    <FaEnvelope /> : anupkumarheda@gmail.com
+                    <FaEnvelope /> : xxxxxxx@gmail.com
                   </li>
                 </ul>
               </div>
