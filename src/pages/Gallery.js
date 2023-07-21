@@ -10,23 +10,24 @@ import "../styles/Gallery.css";
 
 const Gallery = () => {
   const interiorImages = [
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/hero/image.png?raw=true",
     
   ];
 
   const kitchenImages = [
-    
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image6.jpg?raw=true",
   ];
 
   const barCounterImages = [
-    
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image6.jpg?raw=true",
   ];
 
   const lawnImages = [
-    
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image6.jpg?raw=true",
   ];
 
   const poolImages = [
-    
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image6.jpg?raw=true",
   ];
 
   return (

@@ -13,22 +13,24 @@ import ScrollAnimation from "../components/ScrollAnimation";
 
 const Home = () => {
   const interiorImages = [
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image6.jpg?raw=true",
   ];
 
   const kitchenImages = [
-    
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image6.jpg?raw=true",
   ];
 
   const barCounterImages = [
-    
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image6.jpg?raw=true",
   ];
 
   const lawnImages = [
-   
+   "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image6.jpg?raw=true",
   ];
 
   const poolImages = [
-    
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image6.jpg?raw=true",
+
   ];
   return (
     <>
