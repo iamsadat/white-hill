@@ -24,7 +24,7 @@ const Testimonials = () => {
                     <h4 className="user--name">Niharika K</h4>
                   </div>
                   <p>
-                  Decent place party, container building. Might shake while someone walks. Good interiors with terrace seating, bar counter, garden area & pool. There are 4 bedrooms , open to sky seating, looks unique.
+                    Decent place party, container building. Might shake while someone walks. Good interiors with terrace seating, bar counter, garden area & pool. There are 4 bedrooms , open to sky seating, looks unique.
                   </p>
                 </div>
                 <div className="client__card">
@@ -33,7 +33,7 @@ const Testimonials = () => {
                     <h4 className="user--name">Prateek Reddy</h4>
                   </div>
                   <p>
-                  recently had the pleasure of staying at Whitehill Resort in Hyderabad, and it proved to be a delightful experience. Nestled in a serene location, this resort offers a tranquil escape from the bustling city life. With its well-appointed amenities, including a swimming pool, a sprawling garden, a bar area, and five comfortable bedrooms, Whitehill Resort truly provided a memorable stay.
+                    recently had the pleasure of staying at Whitehill Resort in Hyderabad, and it proved to be a delightful experience. Nestled in a serene location, this resort offers a tranquil escape from the bustling city life. With its well-appointed amenities, including a swimming pool, a sprawling garden, a bar area, and five comfortable bedrooms, Whitehill Resort truly provided a memorable stay.
                   </p>
                 </div>
                 <div className="client__card">
@@ -64,7 +64,7 @@ const Testimonials = () => {
                     <h4 className="user--name">Vaibhav ayachitula</h4>
                   </div>
                   <p>
-                  It's a good place and great resort!! Loved it!! ❤️     </p>           </div>
+                    It's a good place and great resort!! Loved it!! ❤️     </p>           </div>
                 <div className="client__card">
                   <div className="user--info">
                     <FaUserAlt className="user--icon" />
@@ -82,7 +82,7 @@ const Testimonials = () => {
                     <h4 className="user--name">Shaik Saifuddin</h4>
                   </div>
                   <p>
-                  White Hills Farm offers a charming blend of luxury and nature. The cottages were cozy and well-equipped, offering stunning views of the surrounding landscape. 
+                    White Hills Farm offers a charming blend of luxury and nature. The cottages were cozy and well-equipped, offering stunning views of the surrounding landscape.
                   </p>
                 </div>
                 <div className="client__card">

@@ -132,19 +132,19 @@ const About = () => {
                 </li>
               </ScrollAnimation>
               <ScrollAnimation>
-                <li>
+                {/* <li>
 
-                </li>
+                </li> */}
               </ScrollAnimation>
               <ScrollAnimation>
-                <li>
+                {/* <li>
 
-                </li>
+                </li> */}
               </ScrollAnimation>
               <ScrollAnimation>
-                <li>
+                {/* <li>
 
-                </li>
+                </li> */}
               </ScrollAnimation>
             </ul>
             <ScrollAnimation>
