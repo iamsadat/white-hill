@@ -12,7 +12,7 @@ import Whatsapp from "../components/Whatsapp";
 import ScrollAnimation from "../components/ScrollAnimation";
 
 const Home = () => {
- const interiorImages = [
+  const interiorImages = [
     "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/hero/image.png?raw=true",
     "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image.webp?raw=true",
     "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image1.jpg?raw=true",
@@ -42,7 +42,7 @@ const Home = () => {
 
   const nv = [
     "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image3.webp?raw=true",
-    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image4.webp",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image4.webp?raw=true",
   ];
   return (
     <>
@@ -127,124 +127,125 @@ const Home = () => {
               </p>
             </ScrollAnimation>
             <ScrollAnimation>
-            <div className="container--text">
-              <ScrollAnimation>
-                <h3 className="container--title">Interior</h3>
-              </ScrollAnimation>
-              <ScrollAnimation>
-                <p className="container--description">
-                  Step into our beautifully designed interior spaces that exude
-                  comfort and charm. Every detail has been carefully crafted to
-                  create a warm and inviting ambiance, ensuring a delightful
-                  stay for our guests.
-                </p>
-              </ScrollAnimation>
-            </div>
-          </ScrollAnimation>
-          <ScrollAnimation>
-            <div className="interiorImages-container">
-              <PropertySlider images={interiorImages} />
-            </div>
-          </ScrollAnimation>
-          <ScrollAnimation>
-            <div className="container--text">
-              <ScrollAnimation>
-                <h3 className="container--title">Pool</h3>
-              </ScrollAnimation>
-              <ScrollAnimation>
-                <p className="container--description">
-                  Dive into ultimate relaxation in our refreshing pool. Take a
-                  dip to beat the heat, swim a few laps, or simply lounge by the
-                  poolside while enjoying the tranquil surroundings. Our pool
-                  area provides the perfect escape to rejuvenate and unwind.
-                </p>
-              </ScrollAnimation>
-            </div>
-          </ScrollAnimation>
-          <ScrollAnimation>
-            <div className="poolImages-container">
-              <PropertySlider images={poolImages} />
-            </div>
-          </ScrollAnimation>
-          <ScrollAnimation>
-            <div className="container--text">
-              <ScrollAnimation>
-                <h3 className="container--title">Lawn</h3>
-              </ScrollAnimation>
-              <ScrollAnimation>
-                <p className="container--description">
-                  Our sprawling lawn offers a serene outdoor space where you can
-                  relax and bask in the beauty of nature. Surrounded by lush
-                  greenery, it's the perfect spot for a leisurely stroll, an
-                  afternoon picnic, or simply unwinding with a good book.
-                </p>
-              </ScrollAnimation>
-            </div>
-          </ScrollAnimation>
-          <ScrollAnimation>
-            <div className="lawnImages-container">
-              <PropertySlider images={lawnImages} />
-            </div>
-          </ScrollAnimation><ScrollAnimation>
-            <div className="container--text">
-              <ScrollAnimation>
-                <h3 className="container--title">Lawn</h3>
-              </ScrollAnimation>
-              <ScrollAnimation>
-                <p className="container--description">
-                  ...
-                </p>
-              </ScrollAnimation>
-            </div>
-          </ScrollAnimation>
-          <ScrollAnimation>
-            <div className="lawnImages-container">
-              <PropertySlider images={nv} />
-            </div>
-          </ScrollAnimation>
-          <ScrollAnimation>
-            <div className="container--text">
-              <ScrollAnimation>
-                <h3 className="container--title">Bar Counter Setup</h3>
-              </ScrollAnimation>
-              <ScrollAnimation>
-                <p className="container--description">
-                  Unwind and socialize at our well-equipped bar counter.
-                </p>
-              </ScrollAnimation>
-            </div>
-          </ScrollAnimation>
-          <ScrollAnimation>
-            <div className="barCounterImages-container">
-              <PropertySlider images={barCounterImages} />
-            </div>
-          </ScrollAnimation>
-          <ScrollAnimation>
-            <div className="container--text">
-              <ScrollAnimation>
-                <h3 className="container--title">Open Theatre Area</h3>
-              </ScrollAnimation>
-              <ScrollAnimation>
-                <p className="container--description">
-                  Enjoy Movies with your friends and family.
-                </p>
-              </ScrollAnimation>
-            </div>
-          </ScrollAnimation>
-          <ScrollAnimation>
-            <div className="kitchenImages-container">
-              <PropertySlider images={kitchenImages} />
-            </div>
-          </ScrollAnimation>
-        </div>
-      </ScrollAnimation>
+              <div className="container--text">
+                <ScrollAnimation>
+                  <h3 className="container--title">Interior</h3>
+                </ScrollAnimation>
+                <ScrollAnimation>
+                  <p className="container--description">
+                    Step into our beautifully designed interior spaces that exude
+                    comfort and charm. Every detail has been carefully crafted to
+                    create a warm and inviting ambiance, ensuring a delightful
+                    stay for our guests.
+                  </p>
+                </ScrollAnimation>
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
+              <div className="interiorImages-container">
+                <PropertySlider images={interiorImages} />
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
+              <div className="container--text">
+                <ScrollAnimation>
+                  <h3 className="container--title">Pool</h3>
+                </ScrollAnimation>
+                <ScrollAnimation>
+                  <p className="container--description">
+                    Dive into ultimate relaxation in our refreshing pool. Take a
+                    dip to beat the heat, swim a few laps, or simply lounge by the
+                    poolside while enjoying the tranquil surroundings. Our pool
+                    area provides the perfect escape to rejuvenate and unwind.
+                  </p>
+                </ScrollAnimation>
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
+              <div className="poolImages-container">
+                <PropertySlider images={poolImages} />
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
+              <div className="container--text">
+                <ScrollAnimation>
+                  <h3 className="container--title">Lawn</h3>
+                </ScrollAnimation>
+                <ScrollAnimation>
+                  <p className="container--description">
+                    Our sprawling lawn offers a serene outdoor space where you can
+                    relax and bask in the beauty of nature. Surrounded by lush
+                    greenery, it's the perfect spot for a leisurely stroll, an
+                    afternoon picnic, or simply unwinding with a good book.
+                  </p>
+                </ScrollAnimation>
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
+              <div className="lawnImages-container">
+                <PropertySlider images={lawnImages} />
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
+              <div className="container--text">
+                <ScrollAnimation>
+                  <h3 className="container--title">Night view</h3>
+                </ScrollAnimation>
+                <ScrollAnimation>
+                  <p className="container--description">
+                    Experience the magic of nights at White Hills Farm! 🌌✨ Explore our Nightview Photos Section and be enchanted by the captivating beauty of our farm under the stars. 🌙📸
+                  </p>
+                </ScrollAnimation>
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
+              <div className="lawnImages-container">
+                <PropertySlider images={nv} />
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
+              <div className="container--text">
+                <ScrollAnimation>
+                  <h3 className="container--title">Bar Counter Setup</h3>
+                </ScrollAnimation>
+                <ScrollAnimation>
+                  <p className="container--description">
+                    Unwind and socialize at our well-equipped bar counter.
+                  </p>
+                </ScrollAnimation>
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
+              <div className="barCounterImages-container">
+                <PropertySlider images={barCounterImages} />
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
+              <div className="container--text">
+                <ScrollAnimation>
+                  <h3 className="container--title">Open Theatre Area</h3>
+                </ScrollAnimation>
+                <ScrollAnimation>
+                  <p className="container--description">
+                    Enjoy Movies with your friends and family.
+                  </p>
+                </ScrollAnimation>
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
+              <div className="kitchenImages-container">
+                <PropertySlider images={kitchenImages} />
+              </div>
+            </ScrollAnimation>
+          </div>
+        </ScrollAnimation>
 
         <ScrollAnimation>
           <h1 className="underlined-heading">AMENITIES</h1>
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-          Our resort boasts a wide array of amenities, carefully curated to cater to your every desire. From tranquil relaxation to exciting entertainment, you'll find it all amidst the nature.
+            Our resort boasts a wide array of amenities, carefully curated to cater to your every desire. From tranquil relaxation to exciting entertainment, you'll find it all amidst the nature.
 
           </p>
         </ScrollAnimation>
@@ -343,7 +344,7 @@ const Home = () => {
             <ScrollAnimation>
               <h3 className="directions">
                 <a
-                  href="https://maps.google.com/maps/dir//A+Creations+Farm+Stay+6-29%2F121%2FP,+Narkhuda,+Shamsabad+Hyderabad,+Telangana+501218/@17.2622117,78.3254986,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3bcbbf271a7aa60b:0x1fee920eb7355b98"
+                  href="https://maps.google.com/maps/dir//White+Hill+Hyd+96HH%2B7PM+Chinna+Mangalaram,+Telangana+501504/@17.377939,78.22995,13z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3bcbeb4b49942561:0x773ea0cc350e33ac"
                   target="_blank"
                   rel="noreferrer"
                   className="directions--a"
