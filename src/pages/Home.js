@@ -12,25 +12,37 @@ import Whatsapp from "../components/Whatsapp";
 import ScrollAnimation from "../components/ScrollAnimation";
 
 const Home = () => {
-  const interiorImages = [
-    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image6.jpg?raw=true",
+ const interiorImages = [
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/hero/image.png?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image.webp?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image1.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image2.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image6.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image8.jpg?raw=true",
   ];
 
   const kitchenImages = [
-    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image6.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/hero/image.png?raw=true?raw=true",
   ];
 
   const barCounterImages = [
-    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image6.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/barcounter/image5.webp?raw=true",
   ];
 
   const lawnImages = [
-    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image6.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/lawn/image11.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/lawn/image12.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/lawn/image9.webp?raw=true",
   ];
 
   const poolImages = [
-    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image6.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/pool/image.png?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/pool/image7.jpg?raw=true",
+  ];
 
+  const nv = [
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image3.webp?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image4.webp",
   ];
   return (
     <>
@@ -172,6 +184,22 @@ const Home = () => {
           <ScrollAnimation>
             <div className="lawnImages-container">
               <PropertySlider images={lawnImages} />
+            </div>
+          </ScrollAnimation><ScrollAnimation>
+            <div className="container--text">
+              <ScrollAnimation>
+                <h3 className="container--title">Lawn</h3>
+              </ScrollAnimation>
+              <ScrollAnimation>
+                <p className="container--description">
+                  ...
+                </p>
+              </ScrollAnimation>
+            </div>
+          </ScrollAnimation>
+          <ScrollAnimation>
+            <div className="lawnImages-container">
+              <PropertySlider images={nv} />
             </div>
           </ScrollAnimation>
           <ScrollAnimation>
