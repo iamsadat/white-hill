@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { motion } from "framer-motion";
 import "../styles/Navbar.css";
+import navlogo from "../assests/logo.jpeg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,9 +28,16 @@ const Navbar = () => {
   return (
     <nav className={`nav ${show && "nav__black"}`}>
       <Link to="/home" className="motion--title">
+      <div className="nav__logo-container">
+          <img
+            src={navlogo}
+            alt="WHH Logo"
+            className="nav--image"
+          />
         <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
           <div class="nav__logo">White Hill Hyd</div>
         </motion.div>
+        </div>
       </Link>
       <div
         className={`nav__menu-icon ${isOpen ? "open" : ""}`}
