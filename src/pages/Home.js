@@ -13,60 +13,36 @@ import ScrollAnimation from "../components/ScrollAnimation";
 
 const Home = () => {
   const interiorImages = [
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8051.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8052.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8054.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8055.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8056.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8058.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8059.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8061.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/2022-10-25.jpg",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8071.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8072.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8074.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8078.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8080.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8082.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8083.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8084.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/2022-10-09%20(1).jpg",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8085.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8088.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8115.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8116.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8119.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8124.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8146.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8147.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/hero/image.png?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image.webp?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image1.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image2.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image6.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image8.jpg?raw=true",
   ];
 
   const kitchenImages = [
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/kitchen/IMG_8053.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/hero/image.png?raw=true?raw=true",
   ];
 
   const barCounterImages = [
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/bar-counter/IMG_8047.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/bar-counter/IMG_8076.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/bar-counter/2022-10-25%20(1).jpg",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/barcounter/image5.webp?raw=true",
   ];
 
   const lawnImages = [
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/lawn/IMG_8076.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/lawn/IMG_8126.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/lawn/IMG_8132.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/lawn/IMG_8136.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/swing.jpg",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/lawn/image11.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/lawn/image12.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/lawn/image9.webp?raw=true",
   ];
 
   const poolImages = [
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/pool/IMG_8048.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/nv.jpg",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/pool/img1.jpg",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/pool/2022-10-09.jpg",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/pool/IMG_8050.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/pool/IMG_8075.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/pool/IMG_8076.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/pool/image.png?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/pool/image7.jpg?raw=true",
+  ];
+
+  const nv = [
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image3.webp?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image4.webp?raw=true",
   ];
   return (
     <>
@@ -77,77 +53,51 @@ const Home = () => {
       <Whatsapp />
       <div class="container---">
         <ScrollAnimation>
-          <h1>A Creations Farm Stay</h1>
+          <h1>White Hill Hyd</h1>
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            Welcome to A Creations Farm Stay! Escape the hustle and bustle of
-            city life and experience the tranquility of our charming farm
-            rental. Nestled in a serene location, our farm stay offers a perfect
-            getaway for a relaxing and rejuvenating experience.
+            Welcome to White Hill Resort, Where tranquility meets luxury's
+            embrace. Nestled amidst nature's scenic allure, A haven for your
+            soul to find solace.
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            Immerse yourself in the natural beauty that surrounds our farm.
-            Enjoy the picturesque landscapes, breathe in the fresh country air,
-            and reconnect with nature. Whether you're seeking a peaceful retreat
-            or an adventure-filled stay, A Creations Farm Stay has something to
-            offer for everyone.
+            Experience a stay beyond compare, Where every moment turns into a
+            dream. From sun-kissed dawns to starlit air, Unwind in opulence,
+            it's more than it seems.
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            Our farm rental provides a range of amenities to ensure a
-            comfortable and enjoyable stay. Take a refreshing dip in the
-            swimming pool or engage in water games to beat the heat. Unwind at
-            the bar counter and savor a variety of drinks and cocktails prepared
-            by our skilled bartenders. Experience the joy of outdoor grilling
-            with our BBQ facilities and indulge in flavorful meals cooked with
-            coal.
+            Celebrate love with weddings divine, With breathtaking backdrops for
+            your special day. Or host corporate events that truly shine, In a
+            setting that will take breaths away.
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            As the sun sets, gather around the bonfire and create unforgettable
-            memories with your loved ones. Explore the surroundings on
-            complimentary bicycles or engage in friendly competition with a
-            collection of board games available for your entertainment.
+            For photographers seeking the perfect frame, Capturing beauty here
+            is an effortless feat. And all your joyous celebrations, we aim, To
+            make them unforgettable and sweet.
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            Our well-equipped kitchen is at your disposal, complete with a gas
-            stove, utensils, and crockery. Prepare your favorite meals using
-            fresh ingredients and enjoy a homely dining experience.
-            Additionally, a microwave and double door refrigerator are provided
-            for your convenience.
+            Open for bookings, our doors await, Dial 📞 +91 9121699121 to
+            reserve your stay. Discover serenity at White Hill Resort, Where
+            cherished memories bloom and sway.
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
-          <p>
-            We understand the importance of uninterrupted comfort during your
-            stay. In the event of a power outage, our generator ensures a
-            seamless experience.
-          </p>
+          <p></p>
         </ScrollAnimation>
         <ScrollAnimation>
-          <p>
-            For parties and corporate events, we offer tailored packages to
-            cater to your specific needs. With a capacity to accommodate up to
-            100 guests, our farm stay provides a unique and picturesque venue
-            for your special occasions.
-          </p>
+          <p></p>
         </ScrollAnimation>
         <ScrollAnimation>
-          <p>
-            To get a glimpse of the beauty that awaits you at A Creations Farm
-            Stay, feel free to browse through our{" "}
-            <a href="https://drive.google.com/drive/folders/1-UmEzmp_RIxe1hCB-GrLmRy7WSHHtNnL">
-              photo gallery
-            </a>
-            .
-          </p>
+          <p></p>
         </ScrollAnimation>
         <ScrollAnimation>
           <div className="gallery--container">
@@ -166,60 +116,114 @@ const Home = () => {
             </ScrollAnimation>
             <ScrollAnimation>
               <div className="container--text">
-                <h3 className="container--title">Interior</h3>
-                <p className="container--description">
-                  Step into our beautifully designed interior spaces that exude
-                  comfort and charm. Every detail has been carefully crafted to
-                  create a warm and inviting ambiance, ensuring a delightful
-                  stay for our guests.
-                </p>
+                <ScrollAnimation>
+                  <h3 className="container--title">Interior</h3>
+                </ScrollAnimation>
+                <ScrollAnimation>
+                  <p className="container--description">
+                    Step into our beautifully designed interior spaces that
+                    exude comfort and charm. Every detail has been carefully
+                    crafted to create a warm and inviting ambiance, ensuring a
+                    delightful stay for our guests.
+                  </p>
+                </ScrollAnimation>
               </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
               <div className="interiorImages-container">
                 <PropertySlider images={interiorImages} />
               </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
               <div className="container--text">
-                <h3 className="container--title">Pool</h3>
-                <p className="container--description">
-                  Dive into ultimate relaxation in our refreshing pool. Take a
-                  dip to beat the heat, swim a few laps, or simply lounge by the
-                  poolside while enjoying the tranquil surroundings. Our pool
-                  area provides the perfect escape to rejuvenate and unwind.
-                </p>
+                <ScrollAnimation>
+                  <h3 className="container--title">Pool</h3>
+                </ScrollAnimation>
+                <ScrollAnimation>
+                  <p className="container--description">
+                    Dive into ultimate relaxation in our refreshing pool. Take a
+                    dip to beat the heat, swim a few laps, or simply lounge by
+                    the poolside while enjoying the tranquil surroundings. Our
+                    pool area provides the perfect escape to rejuvenate and
+                    unwind.
+                  </p>
+                </ScrollAnimation>
               </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
               <div className="poolImages-container">
                 <PropertySlider images={poolImages} />
               </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
               <div className="container--text">
-                <h3 className="container--title">Lawn</h3>
-                <p className="container--description">
-                  Our sprawling lawn offers a serene outdoor space where you can
-                  relax and bask in the beauty of nature. Surrounded by lush
-                  greenery, it's the perfect spot for a leisurely stroll, an
-                  afternoon picnic, or simply unwinding with a good book.
-                </p>
+                <ScrollAnimation>
+                  <h3 className="container--title">Lawn</h3>
+                </ScrollAnimation>
+                <ScrollAnimation>
+                  <p className="container--description">
+                    Our sprawling lawn offers a serene outdoor space where you
+                    can relax and bask in the beauty of nature. Surrounded by
+                    lush greenery, it's the perfect spot for a leisurely stroll,
+                    an afternoon picnic, or simply unwinding with a good book.
+                  </p>
+                </ScrollAnimation>
               </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
               <div className="lawnImages-container">
                 <PropertySlider images={lawnImages} />
               </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
               <div className="container--text">
-                <h3 className="container--title">Bar Counter Setup</h3>
-                <p className="container--description">
-                  Unwind and socialize at our well-equipped bar counter.
-                </p>
+                <ScrollAnimation>
+                  <h3 className="container--title">Night view</h3>
+                </ScrollAnimation>
+                <ScrollAnimation>
+                  <p className="container--description">
+                    Experience the magic of nights at White Hills Farm! 🌌✨
+                    Explore our Nightview Photos Section and be enchanted by the
+                    captivating beauty of our farm under the stars. 🌙📸
+                  </p>
+                </ScrollAnimation>
               </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
+              <div className="lawnImages-container">
+                <PropertySlider images={nv} />
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
+              <div className="container--text">
+                <ScrollAnimation>
+                  <h3 className="container--title">Bar Counter Setup</h3>
+                </ScrollAnimation>
+                <ScrollAnimation>
+                  <p className="container--description">
+                    Unwind and socialize at our well-equipped bar counter.
+                  </p>
+                </ScrollAnimation>
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
               <div className="barCounterImages-container">
                 <PropertySlider images={barCounterImages} />
               </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
               <div className="container--text">
-                <h3 className="container--title">Kitchen</h3>
-                <p className="container--description">
-                  Our fully equipped kitchen is a haven for culinary
-                  enthusiasts. Prepare your favorite meals using top-of-the-line
-                  appliances, cookware, and utensils. Embrace your inner chef
-                  and delight in creating delicious dishes that cater to your
-                  personal tastes.
-                </p>
+                <ScrollAnimation>
+                  <h3 className="container--title">Open Theatre Area</h3>
+                </ScrollAnimation>
+                <ScrollAnimation>
+                  <p className="container--description">
+                    Enjoy Movies with your friends and family.
+                  </p>
+                </ScrollAnimation>
               </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
               <div className="kitchenImages-container">
                 <PropertySlider images={kitchenImages} />
               </div>
@@ -232,52 +236,57 @@ const Home = () => {
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            We take pride in offering a wide range of amenities to make your
-            experience enjoyable and memorable. Here is a list of amenities
-            available:
+            Our resort boasts a wide array of amenities, carefully curated to
+            cater to your every desire. From tranquil relaxation to exciting
+            entertainment, you'll find it all amidst the nature.
           </p>
         </ScrollAnimation>
         <ul class="amenities-list">
           <ScrollAnimation>
             <li>
-              Swimming Pool: Take a refreshing dip in our sparkling swimming
-              pool. Enjoy a relaxing swim or engage in water games to make the
-              most of your time.
+              Luxurious Bedrooms and Bathrooms: With five exquisitely designed
+              bedrooms, your comfort is our top priority. Each room offers a
+              cozy sanctuary to unwind and recharge. Accompanied by seven
+              elegantly appointed bathrooms, you'll have all the space you need
+              to refresh and rejuvenate.
             </li>
           </ScrollAnimation>
           <ScrollAnimation>
             <li>
-              Bar Counter Setup: Unwind and socialize at our fully equipped bar
-              counter. Enjoy a variety of drinks and cocktails prepared by our
-              skilled bartenders.
+              Spacious Living Rooms: Experience the joy of togetherness in our
+              two large living rooms. Gather with your loved ones, bask in the
+              warmth of the surroundings, and create cherished memories that
+              will last a lifetime.
             </li>
           </ScrollAnimation>
           <ScrollAnimation>
             <li>
-              BBQ (Coal): Experience the joy of outdoor grilling with our BBQ
-              facilities. Cook up delicious meals using coal and enjoy a
-              flavorful dining experience.
+              Captivating Bar Setup with Amazing Views: Raise a toast to life's
+              moments of joy at our well-equipped bar area. Marvel at the
+              breathtaking vistas while sipping on your favorite beverages,
+              making your stay truly unforgettable.
             </li>
           </ScrollAnimation>
           <ScrollAnimation>
             <li>
-              Bonfire: Gather around a cozy bonfire and create unforgettable
-              memories. Please note that there is an additional charge of ₹1500
-              for a two-hour bonfire session.
+              Thrilling Pool Table: For those seeking entertainment, our resort
+              offers a thrilling pool table that guarantees hours of friendly
+              competition and fun-filled laughter.
             </li>
           </ScrollAnimation>
           <ScrollAnimation>
             <li>
-              Cycling: Explore the surroundings on two wheels with our
-              complimentary cycling facilities. Discover the area's scenic
-              beauty while enjoying a leisurely ride.
+              Expansive Ground Floor: The large ground floor space allows for
+              various indoor activities, giving you the freedom to create your
+              own memorable experiences.
             </li>
           </ScrollAnimation>
           <ScrollAnimation>
             <li>
-              Water Games in Swimming Pool: Dive into the fun with our exciting
-              water games in the swimming pool. Engage in activities that
-              promise laughter and entertainment.
+              Enchanting Open Theatre Area: Immerse yourself in the magic of
+              cinema under the starry sky. Our open theatre area provides the
+              perfect setting for unforgettable movie nights with your loved
+              ones.
             </li>
           </ScrollAnimation>
           <ScrollAnimation>
@@ -295,24 +304,19 @@ const Home = () => {
             </li>
           </ScrollAnimation>
           <ScrollAnimation>
-            <li>
-              Microwave: Conveniently warm up snacks or heat leftovers using the
-              microwave available in your accommodation.
-            </li>
+            {/* <li>
+
+            </li> */}
           </ScrollAnimation>
           <ScrollAnimation>
-            <li>
-              Double Door Refrigerator: Store your food and beverages in our
-              spacious double door refrigerator. Keep your items fresh and
-              easily accessible.
-            </li>
+            {/* <li>
+
+            </li> */}
           </ScrollAnimation>
           <ScrollAnimation>
-            <li>
-              Generator: In the event of a power outage, our generator ensures
-              uninterrupted electricity supply, allowing you to enjoy your stay
-              without any disruptions.
-            </li>
+            {/* <li>
+
+            </li> */}
           </ScrollAnimation>
         </ul>
         <ScrollAnimation>
@@ -321,14 +325,14 @@ const Home = () => {
               <p>For bookings and further inquiries, please contact us at:</p>
             </ScrollAnimation>
             <ScrollAnimation>
-              <p>Phone: 9393031001, 9390058561</p>
+              <p>Phone: +91 9121699121</p>
             </ScrollAnimation>
             <ScrollAnimation>
               <h1 className="underlined-heading">LOCATION</h1>
             </ScrollAnimation>
             <ScrollAnimation>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7620.205964181371!2d78.325506!3d17.262252!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbbf271a7aa60b%3A0x1fee920eb7355b98!2sA%20Creations%20Farm%20Stay!5e0!3m2!1sen!2sin!4v1689205088239!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30461.637258710034!2d78.22995!3d17.377939!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbeb4b49942561%3A0x773ea0cc350e33ac!2sWhite%20Hill%20Hyd!5e0!3m2!1sen!2sin!4v1689942594177!5m2!1sen!2sin"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
@@ -340,7 +344,7 @@ const Home = () => {
             <ScrollAnimation>
               <h3 className="directions">
                 <a
-                  href="https://maps.google.com/maps/dir//A+Creations+Farm+Stay+6-29%2F121%2FP,+Narkhuda,+Shamsabad+Hyderabad,+Telangana+501218/@17.2622117,78.3254986,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3bcbbf271a7aa60b:0x1fee920eb7355b98"
+                  href="https://maps.google.com/maps/dir//White+Hill+Hyd+96HH%2B7PM+Chinna+Mangalaram,+Telangana+501504/@17.377939,78.22995,13z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3bcbeb4b49942561:0x773ea0cc350e33ac"
                   target="_blank"
                   rel="noreferrer"
                   className="directions--a"
@@ -360,17 +364,16 @@ const Home = () => {
             </h1>
             <div className="wrapper animated bounceInLeft">
               <div className="company-info">
-                <h3 className="company-info-title">A Creations Farm Stay</h3>
+                <h3 className="company-info-title">White Hill Hyd</h3>
                 <ul>
                   <li>
-                    <FaRoad /> : 6-29/121/P, Narkhuda, Shamsabad, Hyderabad,
-                    Telangana 501218
+                    <FaRoad /> : 96HH+7PM, Chinna Mangalaram, Telangana 501504
                   </li>
                   <li>
-                    <FaPhone /> : 9393031001 / 9390058561
+                    <FaPhone /> : +91 9121699121
                   </li>
                   <li>
-                    <FaEnvelope /> : anupkumarheda@gmail.com
+                    <FaEnvelope /> : xxxxxxxxxxxxx@gmail.com
                   </li>
                 </ul>
               </div>

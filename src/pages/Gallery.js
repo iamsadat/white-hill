@@ -9,15 +9,38 @@ import "../styles/PropertySlider.css";
 import "../styles/Gallery.css";
 
 const Gallery = () => {
-  const interiorImages = [];
+  const interiorImages = [
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/hero/image.png?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image.webp?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image1.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image2.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image6.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/interior/image8.jpg?raw=true",
+  ];
 
-  const kitchenImages = [];
+  const kitchenImages = [
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/hero/image.png?raw=true?raw=true",
+  ];
 
-  const barCounterImages = [];
+  const barCounterImages = [
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/barcounter/image5.webp?raw=true",
+  ];
 
-  const lawnImages = [];
+  const lawnImages = [
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/lawn/image11.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/lawn/image12.jpg?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/lawn/image9.webp?raw=true",
+  ];
 
-  const poolImages = [];
+  const poolImages = [
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/pool/image.png?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/pool/image7.jpg?raw=true",
+  ];
+
+  const nv = [
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image3.webp?raw=true",
+    "https://github.com/iamsadat/white-hill/blob/main/src/assests/photos/image4.webp?raw=true",
+  ];
 
   return (
     <>
@@ -55,6 +78,25 @@ const Gallery = () => {
           <ScrollAnimation>
             <div className="interiorImages-container">
               <PropertySlider images={interiorImages} />
+            </div>
+          </ScrollAnimation>
+          <ScrollAnimation>
+            <div className="container--text">
+              <ScrollAnimation>
+                <h3 className="container--title">Night view</h3>
+              </ScrollAnimation>
+              <ScrollAnimation>
+                <p className="container--description">
+                  Experience the magic of nights at White Hills Farm! 🌌✨
+                  Explore our Nightview Photos Section and be enchanted by the
+                  captivating beauty of our farm under the stars. 🌙📸
+                </p>
+              </ScrollAnimation>
+            </div>
+          </ScrollAnimation>
+          <ScrollAnimation>
+            <div className="lawnImages-container">
+              <PropertySlider images={nv} />
             </div>
           </ScrollAnimation>
           <ScrollAnimation>
@@ -117,15 +159,11 @@ const Gallery = () => {
           <ScrollAnimation>
             <div className="container--text">
               <ScrollAnimation>
-                <h3 className="container--title">Kitchen</h3>
+                <h3 className="container--title">Open Theatre Area</h3>
               </ScrollAnimation>
               <ScrollAnimation>
                 <p className="container--description">
-                  Our fully equipped kitchen is a haven for culinary
-                  enthusiasts. Prepare your favorite meals using top-of-the-line
-                  appliances, cookware, and utensils. Embrace your inner chef
-                  and delight in creating delicious dishes that cater to your
-                  personal tastes.
+                  Enjoy Movies with your friends and family.
                 </p>
               </ScrollAnimation>
             </div>
