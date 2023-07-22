@@ -13,7 +13,7 @@ import video4 from "../assests/videos/Ins2964933549_83f3b4c895804f5eba6bfb851830
 import video5 from "../assests/videos/Ins2964933549_109ffbafe6bb437f8a1945d449c00390_01458B43042468202B895FAE532F68A7_video_dashinit.mp4";
 
 const About = () => {
-  const videos = [video1, video2, video3, video4, video5,];
+  const videos = [video1, video2, video3, video4, video5];
   return (
     <>
       <Navbar />
@@ -21,7 +21,8 @@ const About = () => {
       <ScrollAnimation>
         <ScrollAnimation>
           <div class="container---">
-            <div className="player-wrapper">s
+            <div className="player-wrapper">
+              s
               <VideoSlider videos={videos} />
             </div>
             <ScrollAnimation>

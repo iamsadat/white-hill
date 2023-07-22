@@ -1,29 +1,9 @@
 import React from "react";
 
-const styles = {
-  whatsappIcon: {
-    position: "fixed",
-    bottom: "20px",
-    right: "20px",
-    zIndex: "9999",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    width: "50px",
-    height: "50px",
-    borderRadius: "50%",
-  },
-  iconImage: {
-    width: "35px",
-    height: "35px",
-    padding: "2px",
-  },
-};
-
 const Whatsapp = () => {
   return (
     <a
-      href="https://api.whatsapp.com/send?phone=9121699121"
+      href="https://api.whatsapp.com/send?phone=9393031001"
       target="_blank"
       style={styles.whatsappIcon}
     >
@@ -67,6 +47,26 @@ const Whatsapp = () => {
       </svg>
     </a>
   );
+};
+
+const styles = {
+  whatsappIcon: {
+    position: "fixed",
+    bottom: "20px",
+    right: "20px",
+    zIndex: "9999",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "50px",
+    height: "50px",
+    borderRadius: "50%",
+  },
+  iconImage: {
+    width: "35px",
+    height: "35px",
+    padding: "2px",
+  },
 };
 
 export default Whatsapp;
