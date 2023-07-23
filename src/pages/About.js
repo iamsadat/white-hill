@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../styles/About.css";
@@ -174,6 +175,18 @@ const About = () => {
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
                   ></iframe>
+                </ScrollAnimation>
+                <ScrollAnimation>
+                  <h3 className="directions">
+                    <a
+                      href="https://maps.google.com/maps/dir//White+Hill+Hyd+96HH%2B7PM+Chinna+Mangalaram,+Telangana+501504/@17.377939,78.22995,13z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3bcbeb4b49942561:0x773ea0cc350e33ac"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="directions--a"
+                    >
+                      Get Directions
+                    </a>
+                  </h3>
                 </ScrollAnimation>
               </div>
             </ScrollAnimation>
