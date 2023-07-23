@@ -466,6 +466,11 @@ body {
   .about--container {
     margin-top: -2rem;
   }
+
+  .map {
+    max-width: 80%;
+    max-height: 300px;
+  }
 }
 
 .container--- {

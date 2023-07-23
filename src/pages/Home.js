@@ -333,12 +333,13 @@ const Home = () => {
             <ScrollAnimation>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30461.637258710034!2d78.22995!3d17.377939!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbeb4b49942561%3A0x773ea0cc350e33ac!2sWhite%20Hill%20Hyd!5e0!3m2!1sen!2sin!4v1689942594177!5m2!1sen!2sin"
-                width="100%"
-                height="400"
-                style={{ border: 0 }}
+                width="600"
+                height="450"
+                style={{ border: "0" }}
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
+                className="map"
               ></iframe>
             </ScrollAnimation>
             <ScrollAnimation>
