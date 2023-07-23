@@ -28,6 +28,10 @@
   color: var(--text-dark);
 }
 
+.section__header {
+  color: #e4db93;
+}
+
 @media (width < 900px) {
   .client__grid {
     grid-template-columns: repeat(2, 1fr);
@@ -42,7 +46,7 @@
 }
 
 .client {
-  background-color: #f3d8c7;
+  background-color: #2a2a37;
 }
 
 .user--icon {

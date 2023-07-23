@@ -127,7 +127,6 @@ body {
   }
 }
 
-
 .footer {
   background-color: var(--extra-light);
 }
@@ -539,17 +538,20 @@ ol {
 }
 
 .directions:hover {
-  color: var(--primary-color);
-  background-color: #92bde7;
+  color: #2a2a37;
+  background-color: #2a2a37;
   transition: 0.3s ease-in-out;
 }
 
 .directions--a.active {
-  color: var(--primary-color-dark);
+  color: #2a2a37;
 }
 
 .directions--a {
+  display: flex;
+  color: #ccb468;
   text-decoration: none;
+  margin: 0 auto;
 }
 
 body {

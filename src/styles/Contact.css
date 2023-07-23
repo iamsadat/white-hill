@@ -52,7 +52,7 @@ ul {
 
 .company-info {
   /* background-color: rgb(222, 234, 251, 0.5); */
-  background-color: #d5c6e0;
+  background-color: #debd68;
   box-shadow: 0 4px 10px 0 #9e9ea7;
   border: 1px solid #ffffff;
   /* border-radius: 10px; */
@@ -65,7 +65,7 @@ ul {
 }
 
 .contact {
-  background-color: #d5c6e0;
+  background-color: #debd68;
   background-color: none;
   box-shadow: 0 4px 10px 0 #9e9ea7;
   border: 1px solid #ffffff;
@@ -96,21 +96,25 @@ ul {
 .contact form textarea {
   width: 100%;
   padding: 1em;
-  border: 1px solid #c9e6ff;
+  border: 1px solid #bca671;
+  border-radius: 4px;
 }
 
 .contact form button {
-  background: #c9e6ff;
+  background: #736e67;
   border: 0;
   text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 
 .contact form button:hover,
 .contact form button:focus {
-  background: #92bde7;
+  background: #2a2a37;
   color: #fff;
+  cursor: pointer;
   outline: 0;
-  transition: background-color 2s ease-out;
+  transition: background-color 0.7s ease-in-out;
 }
 
 /* LARGE SCREENS */
